@@ -5,6 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Gallery of Horns</title>
   <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/layouts.css">
+  <link rel="stylesheet" href="styles/modules.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <script id="template" type="x-tmpl-mustashe">
+    <div>
+      <h2>{{name}}</h2>
+      <img src={{src}} alt={{alt}}>
+      <p>{{description}}</p>
+    </div>
+ 
+  </script>
+
 </head>
 <body>
   <header>
@@ -15,15 +27,12 @@
   </header>
 
   <main>
-    <section class="photo-template">
-      <h2></h2>
-      <img src="" alt="">
-      <p></p>
-    </section>
+    <section></section>
     </main>
     <footer>
       
     </footer>
+    <script src="https://unpkg.com/mustache@latest"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/app.js"></script>
 </body>
