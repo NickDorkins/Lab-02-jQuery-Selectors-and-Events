@@ -8,11 +8,12 @@
   <link rel="stylesheet" href="styles/layouts.css">
   <link rel="stylesheet" href="styles/modules.css">
   <link rel="stylesheet" href="styles/base.css">
+  <link href="https://fonts.googleapis.com/css2?family=Frijole&family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">
   <script id="template" type="x-tmpl-mustashe">
     <div>
-      <h2>{{name}}</h2>
+      <h2 id="title">{{name}}</h2>
       <img src={{src}} alt={{alt}}>
-      <p>{{description}}</p>
+      <p id="textBox">{{description}}</p>
     </div>
  
   </script>
@@ -23,11 +24,12 @@
     <h1>Gallery of Horns</h1>
     <select name="" id=""> 
       <option value="Filter">Filter By Keyword</option>
+      <option value="Test">test By Keyword</option>
     </select>
   </header>
 
   <main>
-    <section></section>
+    <section id="render"></section>
     </main>
     <footer>
       

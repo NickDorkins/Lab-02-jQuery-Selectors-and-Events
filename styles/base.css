@@ -1,0 +1,29 @@
+img {
+  width: 200px;
+  height: auto;
+}
+
+#render {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}
+
+#textBox {
+  width: 200px;
+  height: auto;
+  font-family: 'Frijole', cursive;
+  font-size: 0.75em;
+}
+
+
+#title {
+  width: 200px;
+  height: auto;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 1.5em;
+}
+
+div {
+  padding: 10px;
+}
