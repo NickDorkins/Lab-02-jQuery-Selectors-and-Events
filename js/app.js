@@ -54,3 +54,14 @@ Horn.readJson = () => {
 $(() => Horn.readJson());
 
 // console.log('Hello');
+
+
+function filter(obj) {
+  console.log('filter');
+  let hornFilter = {
+    alt: obj.keyword
+  };
+  let $template = $('#template').html();
+  let filter = Mustache.render($template, hornFilter);
+  $('selection').append(filter);
+}
