@@ -15,9 +15,9 @@ Actual time needed to complete: 60 Minutes
 
 Number and name of feature: #2 Fiter Images
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 60 minutes
 
-Start time: _____
+Start time: 9:00am
 
 Finish time: _____
 

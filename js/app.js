@@ -1,12 +1,22 @@
 'use strict';
 
+// Global Variables
+let hornArr1 = [];
+let hornArr2 = [];
+let keyWordArr1 = [];
+let keyWordArr2 = [];
+
+// Constructor Function
 function Horn(obj) {
 this.src = obj.image_url;
 this.name = obj.title;
 this.description = obj.description;
 this.alt = obj.keyword;
 this.horns = obj.horns;
+// this.page = page;
 }
+
+
 
 // Horn.prototype.render = function() {
 //   let $photoClone = $('.photo-template').clone();
@@ -39,15 +49,14 @@ Horn.readJson = () => {
     dataType: 'json'
   }
   
-  $.ajax('../data/page-1.json',ajaxSettings)
-  .then(data => {
+  $.ajax('../data/page-01.json',ajaxSettings).then(data => {
     console.log(data);
     data.forEach(item => {
       let horn = new Horn(item);
       render(horn);
-      console.log(horn);
-      // horn.render();        
+      console.log(horn);       
     });
+
   })
 }
 
